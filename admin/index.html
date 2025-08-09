@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LNN Admin</title>
+  <link rel="stylesheet" href="/styles.css" />
+  <style>
+    .admin { max-width: 960px; margin: 40px auto; padding: 0 16px; }
+    .row { background:#111; border:1px solid #333; border-radius:12px; padding:16px; margin-bottom:16px; }
+    .row h4 { margin:0 0 8px; }
+    pre { background:#0b0b0b; padding:12px; border-radius:10px; overflow:auto; }
+    .small { color:#b8b8b8; font-size:12px; }
+  </style>
+</head>
+<body>
+  <div class="admin">
+    <h2>内容管理</h2>
+    <div class="row">
+      <label>语言：
+        <select id="lang">
+          <option value="zh">中文</option>
+          <option value="en">English</option>
+        </select>
+      </label>
+      <label style="margin-left:12px;">Admin Token：
+        <input id="token" type="password" placeholder="粘贴 ADMIN_TOKEN" />
+      </label>
+      <button id="load" class="cta">加载</button>
+      <button id="save" class="cta" style="margin-left:8px;">保存</button>
+      <p class="small">提示：保存后刷新首页即可看到实时生效。</p>
+    </div>
+
+    <div class="row">
+      <h4>Capabilities（数组）</h4>
+      <textarea id="capabilities" rows="4"></textarea>
+    </div>
+
+    <div class="row">
+      <h4>Certifications（数组）</h4>
+      <textarea id="certifications" rows="3"></textarea>
+    </div>
+
+    <div class="row">
+      <h4>Projects（数组，含 title/desc/image）</h4>
+      <textarea id="projects" rows="8"></textarea>
+    </div>
+
+    <div class="row">
+      <h4>Process（数组）</h4>
+      <textarea id="process" rows="4"></textarea>
+    </div>
+
+    <div class="row">
+      <h4>Contact（对象，address/email/phone）</h4>
+      <textarea id="contact" rows="4"></textarea>
+    </div>
+
+    <pre id="status"></pre>
+  </div>
+  <script src="/admin/admin.js"></script>
+</body>
+</html>
