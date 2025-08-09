@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LNN 家具加工 | LNN Furniture Manufacturing</title>
+  <meta name="description" content="LNN 家具加工——定制、可持续、国际品质的木作与金属结构方案。" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">LNN</div>
+    <nav class="menu">
+      <a href="#about" data-i18n="nav.about">关于</a>
+      <a href="#capabilities" data-i18n="nav.capabilities">能力</a>
+      <a href="#projects" data-i18n="nav.projects">案例</a>
+      <a href="#process" data-i18n="nav.process">流程</a>
+      <a href="#contact" data-i18n="nav.contact">联系</a>
+    </nav>
+    <div class="lang">
+      <button class="lang-btn" data-lang="zh">中</button>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1 data-i18n="hero.title">为全球品牌打造极致的家具与空间解决方案</h1>
+      <p class="lead" data-i18n="hero.subtitle">从材料到工艺，从打样到量产，我们交付可以落地的美学。</p>
+      <a class="cta" href="#contact" data-i18n="hero.cta">获取报价</a>
+      <div class="hero-meta">
+        <span data-i18n="hero.badge1">定制</span>
+        <span data-i18n="hero.badge2">可持续</span>
+        <span data-i18n="hero.badge3">国际标准</span>
+      </div>
+    </section>
+
+    <section id="about" class="block">
+      <h2 data-i18n="about.title">关于 LNN</h2>
+      <p data-i18n="about.body">
+        我们位于中国山西，服务全球品牌、设计事务所与开发商。以工程化的严谨实现设计的想象。
+      </p>
+    </section>
+
+    <section id="capabilities" class="block two-col">
+      <div>
+        <h3 data-i18n="cap.title">核心能力</h3>
+        <ul id="cap-list"></ul>
+      </div>
+      <div class="card">
+        <h4 data-i18n="cap.certTitle">质量与认证</h4>
+        <ul id="cert-list"></ul>
+      </div>
+    </section>
+
+    <section id="projects" class="block">
+      <h3 data-i18n="projects.title">精选案例</h3>
+      <div id="projects-grid" class="grid"></div>
+    </section>
+
+    <section id="process" class="block steps">
+      <h3 data-i18n="process.title">从概念到交付</h3>
+      <ol id="steps-list"></ol>
+    </section>
+
+    <section id="contact" class="block contact">
+      <h3 data-i18n="contact.title">联系与合作</h3>
+      <div class="contact-grid">
+        <div>
+          <p><strong data-i18n="contact.company">公司：</strong>LNN 家具加工有限公司</p>
+          <p><strong data-i18n="contact.addr">地址：</strong><span id="addr"></span></p>
+          <p><strong data-i18n="contact.email">邮箱：</strong><a id="email"></a></p>
+          <p><strong data-i18n="contact.phone">电话：</strong><a id="phone"></a></p>
+        </div>
+        <form id="quote-form">
+          <label data-i18n="form.project">项目名称</label>
+          <input name="project" required />
+          <label data-i18n="form.scope">需求范围</label>
+          <textarea name="scope" rows="4" required></textarea>
+          <button type="submit" class="cta" data-i18n="form.submit">发送需求</button>
+          <small data-i18n="form.notice">提交后我们将在 24 小时内联系您。</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> LNN</span>
+    <span class="dot">•</span>
+    <a href="/admin/" rel="nofollow">Admin</a>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
