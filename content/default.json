@@ -1,0 +1,24 @@
+{
+  "zh": {
+    "capabilities": ["实木与板式工艺", "金属结构焊接与喷涂", "皮革与织物软包", "环保涂装（低 VOC）", "快速打样与小批量试产", "国际物流与木箱包装"],
+    "certifications": ["ISO 9001 质量管理", "FSC 责任采购", "CARB/E1 低甲醛标准", "RoHS 材料合规"],
+    "projects": [
+      { "title": "北欧零售旗舰店陈列系统", "desc": "模块化金属与木饰面组合，现场快速装配。", "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200" },
+      { "title": "精品酒店客房家具", "desc": "实木与皮革结合，耐用与触感兼顾。", "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200" },
+      { "title": "办公空间定制桌屏", "desc": "电气走线与声学材料一体化设计。", "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200" }
+    ],
+    "process": ["概念评审与可制造性分析", "材料选型与打样", "结构工程与试产", "质量验证与量产", "包装标准与全球交付"],
+    "contact": { "address": "山西省 太原市", "email": "hello@lnn.example.com", "phone": "+86 351 0000 000" }
+  },
+  "en": {
+    "capabilities": ["Solid wood & panel machining", "Metal welding & powder coating", "Leather & fabric upholstery", "Eco-friendly finishing (low VOC)", "Rapid prototyping & pilot runs", "International logistics & crating"],
+    "certifications": ["ISO 9001 Quality", "FSC Responsible sourcing", "CARB/E1 Low formaldehyde", "RoHS Material compliance"],
+    "projects": [
+      { "title": "Nordic Retail Flagship Fixtures", "desc": "Modular metal + veneer with quick on-site assembly.", "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1200" },
+      { "title": "Boutique Hotel Guestroom", "desc": "Solid wood meets leather; durable yet tactile.", "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200" },
+      { "title": "Custom Workstations", "desc": "Integrated cable routing and acoustic panels.", "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1200" }
+    ],
+    "process": ["Concept & DFM review", "Material selection & samples", "Engineering & pilot", "QC validation & mass production", "Packaging & global delivery"],
+    "contact": { "address": "Taiyuan, Shanxi, China", "email": "hello@lnn.example.com", "phone": "+86 351 0000 000" }
+  }
+}
